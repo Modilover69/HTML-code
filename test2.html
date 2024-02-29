@@ -1,0 +1,233 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            background-color: black;
+        }
+
+        #para1 {
+            text-align: center;
+            color: red;
+        }
+
+        p {
+            color: rgb(96, 248, 14);
+        }
+    </style>
+</head>
+
+<body>
+    <h1>This is a heading</h1>
+    <p>This is a program</p>
+    <p id="para1">This is a program which has to be executed</p>
+</body>
+
+</html> -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charSet="utf-8" />
+    <meta name="viewport" content="width=device-width, minimum-scale=1, shrink-to-fit=no, initial-scale=1" />
+    <title>Login to VishwaCTF&#x27;24</title>
+    <meta property="og:title" content="Login to VishwaCTF&#x27;24" />
+    <meta property="og:site" content="VishwaCTF&#x27;24" />
+    <meta name="twitter:title" content="Login to VishwaCTF&#x27;24" />
+    <meta name="description" />
+    <link rel="icon" href="/assets/icon.png" />
+    <meta name="next-head-count" content="8" />
+    <meta charSet="utf-8" />
+    <meta name="theme-color" content="#1E259B" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta property="og:site_name" content="Traboda Arena" />
+    <meta property="og:locale" content="en_US" />
+    <meta name="vapid-key" content="" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="anonymous" />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;600&amp;display=swap" rel="stylesheet"
+        crossorigin="anonymous" />
+    <link data-next-font="" rel="preconnect" href="/" crossorigin="anonymous" />
+    <link rel="preload" href="/_next/static/css/fce92ea94acd6903.css" as="style" />
+    <link rel="stylesheet" href="/_next/static/css/fce92ea94acd6903.css" data-n-g="" />
+    <link rel="preload" href="/_next/static/css/4dddb22983b132c8.css" as="style" />
+    <link rel="stylesheet" href="/_next/static/css/4dddb22983b132c8.css" data-n-p="" /><noscript
+        data-n-css=""></noscript>
+    <script defer="" nomodule="" src="/_next/static/chunks/polyfills-c67a75d1b6f99dc8.js"></script>
+    <script defer="" src="/_next/static/chunks/442.40d7560e6811d4f6.js"></script>
+    <script defer="" src="/_next/static/chunks/4685.38d7078620db80be.js"></script>
+    <script src="/_next/static/chunks/webpack-5eb5802e079ece8f.js" defer=""></script>
+    <script src="/_next/static/chunks/framework-ca706bf673a13738.js" defer=""></script>
+    <script src="/_next/static/chunks/main-cd44489339d4c854.js" defer=""></script>
+    <script src="/_next/static/chunks/pages/_app-7aba3ce316c413c2.js" defer=""></script>
+    <script src="/_next/static/chunks/29107295-79b81857c2f2608e.js" defer=""></script>
+    <script src="/_next/static/chunks/9761-8e01fd2fdc08d1c0.js" defer=""></script>
+    <script src="/_next/static/chunks/5050-d69e57972f580764.js" defer=""></script>
+    <script src="/_next/static/chunks/pages/login-16b9e31820d73f42.js" defer=""></script>
+    <script src="/_next/static/fpNGMUldzNaBkrZdXo08Z/_buildManifest.js" defer=""></script>
+    <script src="/_next/static/fpNGMUldzNaBkrZdXo08Z/_ssgManifest.js" defer=""></script>
+</head>
+
+<body>
+    <div id="__next">
+        <script id="dsr-theme-script">!function () {
+                var style = document.getElementById('dsr-theme-style');
+                if (!style) {
+                    style = document.createElement('style');
+                    style.id = 'dsr-theme-style';
+                    document.head.appendChild(style);
+                }
+                style.innerHTML = `:root { --background: #1a1626;
+--color: #EEE;
+--primary: #7165b2;
+--primaryTextColor: white;
+--secondary: #8f84c9;
+--secondaryTextColor: black;
+--primary50: rgba(113, 101, 178, 0.5);
+--primary10: rgba(113, 101, 178, 0.1);
+--primary-bright: hsl(249.39999999999998, 60%, 98.5%);
+--primary-minimal: rgb(81, 72, 126);
+--secondary50: rgba(143, 132, 201, 0.5);
+--secondary10: rgba(143, 132, 201, 0.1);
+--secondary-bright: hsl(249.60000000000002, 70.2%, 100%);
+--secondary-minimal: rgb(102, 94, 142);
+--contrast: rgb(229, 233, 217);
+--contrast50: rgba(229, 233, 217, 0.5);
+--background-lighten-1: hsl(255, 26.7%, 12.9%);
+--background-darken-1: hsl(255, 26.7%, 10.6%);
+--background-lighten-2: hsl(255, 26.7%, 14.1%);
+--background-darken-2: hsl(255, 26.7%, 9.4%);
+--background-lighten-3: hsl(255, 26.7%, 15.3%);
+--background-darken-3: hsl(255, 26.7%, 8.2%); }`;
+
+                if (true) {
+                    document.body.classList.add("dsr-dark");
+                } else {
+                    document.body.classList.remove("dsr-dark");
+                }
+            }();</script>
+        <style data-emotion="css-global 52rzu0">
+            html {
+                --background80: rgba(26, 22, 38, 0.8);
+            }
+
+            #nprogress .bar {
+                background: #8f84c9 !important;
+                z-index: 1000000 !important;
+            }
+
+            #nprogress .peg {
+                box-shadow: 0 0 10px #8f84c9, 0 0 5px #8f84c9 !important;
+            }
+
+            body {
+                background: var(--background);
+                color: var(--color);
+            }
+        </style>
+        <style data-emotion="css-global 0"></style>
+        <div class="view-container dark-theme">
+            <div style="height:100vh">
+                <main class="main-container min-h-full">
+                    <div class="flex flex-wrap mx-0">
+                        <div style="z-index:5000" class="fixed top-0 right-0 p-4">
+                            <div></div>
+                        </div>
+                        <div class="w-full order-1 lg:order-1 lg:w-1/2 xl:w-2/3"
+                            style="background:rgba(229, 233, 217, 0.15000000000000002);overflow-y:auto;overflow-x:hidden">
+                            <div style="min-height:0;padding-top:0" class="relative w-full h-full">
+                                <div class="p-6"></div>
+                            </div>
+                            <div class="fixed bottom-0 w-full pb-3 left-0 px-2"><a href="/login#auth-container-view"
+                                    class="button dsr-relative dsr-overflow-hidden dsr-text-center dsr-border-transparent dsr-transition dsr-outline-0 dsr-inline-flex dsr-items-center dsr-justify-center dsr-border dsr-shadow hover:dsr-shadow-none dsr-gap-2 focus:dsr-ring-1 focus:dsr-ring-offset-2 focus:dsr-ring-offset-transparent dsr-px-3.5 dsr-py-2 dsr-rounded-lg dsr-text-base dsr-ring-primary/50 dsr-bg-primary dsr-text-neutral-100 w-full py-4 text-xl"
+                                    aria-disabled="false"><span class="dsr-absolute dsr-inset-0"></span>Login /
+                                    Register</a></div>
+                        </div>
+                        <div id="auth-container-view"
+                            class="w-full relative order-2 lg:order-2 lg:w-1/2 xl:w-1/3 p-3 flex justify-center items-center"
+                            style="min-height:100vh;background:#120F1B">
+                            <div class="flex justify-center" style="width:450px;max-width:100%">
+                                <div id="auth-section-wrapper" style="min-width:350px" class="w-full">
+                                    <div class="flex justify-center py-5 mb-4"><img class="contest-logo"
+                                            alt="VishwaCTF&#x27;24"
+                                            src="https://vishwactf.s3.amazonaws.com/uploads/images/avatar_49712396-5df8-480e-96d3-81afb2ecbf5a.jpg"
+                                            height="72px" style="height:72px" /></div>
+                                    <ul id="auth-type-tab-switcher" role="tablist" aria-orientation="horizontal"
+                                        class="dsr-list-none tab-selector horizontal-tabs dsr-relative dsr-inline-flex dsr-items-center dsr-rounded-lg dsr-z-[1000] dsr-gap-x-1 dsr-bg-neutral-400/20 dark:dsr-bg-neutral-600/20 dsr-p-1.5 w-full mb-3">
+                                        <li role="presentation"
+                                            class="focus-visible:dsr-outline dsr-duration-200 dsr-transition dsr-rounded-lg dsr-transition-background dsr-outline-2 dsr-no-underline active dsr-font-semibold dsr-px-5 dsr-py-2 dsr-text-primaryTextColor dsr-z-[1000] w-1/2 text-center flex justify-center text-xl">
+                                            <button role="tab" type="button" id="auth-type-tab-switcher-login-view-tab"
+                                                data-toggle="tab" aria-selected="true"
+                                                aria-controls="auth-type-tab-switcher-login-view-panel">
+                                                <div
+                                                    class="dsr-flex dsr-w-full dsr-justify-between dsr-items-center dsr-gap-2">
+                                                    <div class="dsr-flex dsr-items-center dsr-gap-2 dsr-text-left">
+                                                        <span>Login</span></div>
+                                                </div>
+                                            </button></li>
+                                        <li role="presentation"
+                                            class="focus-visible:dsr-outline dsr-duration-200 dsr-transition dsr-text-color dsr-rounded-lg dsr-transition-background dsr-outline-2 dsr-no-underline dsr-px-5 dsr-py-2 hover:dsr-bg-neutral-50/80 dark:hover:dsr-bg-neutral-500/80 w-1/2 text-center flex justify-center text-xl">
+                                            <button role="tab" type="button"
+                                                id="auth-type-tab-switcher-register-view-tab" data-toggle="tab"
+                                                aria-selected="false"
+                                                aria-controls="auth-type-tab-switcher-register-view-panel">
+                                                <div
+                                                    class="dsr-flex dsr-w-full dsr-justify-between dsr-items-center dsr-gap-2">
+                                                    <div class="dsr-flex dsr-items-center dsr-gap-2 dsr-text-left">
+                                                        <span>Register</span></div>
+                                                </div>
+                                            </button></li>
+                                        <div class="dsr-absolute dsr-left-0 dsr-rounded-lg dsr-transition-all dsr-ease-in-out horizontal-navigator-pill dsr-shadow-lg dsr-z-[500] dsr-top-0 dsr-bg-primary"
+                                            style="transform:;width:0;height:0"></div>
+                                    </ul>
+                                    <div id="auth-section-container" class="min-h-[45vh] mt-3">
+                                        <div>
+                                            <form id="login-form">
+                                                <div class="text-input dsr-w-full dsr-h-full dsr-overflow-hidden"><label
+                                                        class="dsr-opacity-90 dsr-flex dsr-items-center dsr-font-medium dsr-mb-1 dsr-text-sm"
+                                                        for="username-input-dCS3d2VajG7zDDPNAx1Oo"
+                                                        aria-hidden="false"><span
+                                                            class="dsr-flex dsr-items-center dsr-gap-1"><span>E-mail or
+                                                                Username<span
+                                                                    class="dsr-ml-1 dsr-text-red-500">*</span></span></span><span
+                                                            class="dsr-ml-auto"></span></label>
+                                                    <div class="dsr-relative dsr-group dsr-flex dsr-justify-between">
+                                                        <div class="dsr-relative dsr-flex dsr-flex-grow"><input
+                                                                class="dsr-px-2.5 dsr-py-2 dsr-block dsr-w-full dsr-bg-background-lighten-1 placeholder:dsr-text-color focus:dsr-outline-none dsr-text-color dsr-border-y placeholder:dsr-opacity-50 dsr-shadow-inner  dsr-text-color dsr-text-base group-focus-within:dsr-border-gray-500/50 group-[:not(:focus-within):hover]:dsr-border-gray-500/40 dark:dsr-border-neutral-500/70 dsr-border-neutral-500/20 dsr-rounded-l-lg dsr-border-l dsr-rounded-r-lg dsr-border-r"
+                                                                aria-label="E-mail or Username" aria-required="true"
+                                                                aria-disabled="false"
+                                                                id="username-input-dCS3d2VajG7zDDPNAx1Oo"
+                                                                name="username"
+                                                                placeholder="Enter your username or email" required=""
+                                                                style="font-size:1.25rem" value="" /></div>
+                                                    </div>
+                                                </div>
+                                                <div class="py-2">
+                                                    <div class="text-input dsr-w-full dsr-h-full dsr-overflow-hidden">
+                                                        <label
+                                                            class="dsr-opacity-90 dsr-flex dsr-items-center dsr-font-medium dsr-mb-1 dsr-text-sm"
+                                                            for="current-password-input-yNyiXH7HQAtlj9KXAX3S4"
+                                                            aria-hidden="false"><span
+                                                                class="dsr-flex dsr-items-center dsr-gap-1"><span>Password<span
+                                                                        class="dsr-ml-1 dsr-text-red-500">*</span></span></span><span
+                                                                class="dsr-ml-auto"></span></label>
+                                                        <div
+                                                            class="dsr-relative dsr-group dsr-flex dsr-justify-between">
+                                                            <div class="dsr-relative dsr-flex dsr-flex-grow"><input
+                                                                    type="password"
+                                                                    class="dsr-px-2.5 dsr-py-2 dsr-block dsr-w-full dsr-bg-background-lighten-1 placeholder:dsr-text-color focus:dsr-outline-none dsr-text-color dsr-border-y placeholder:dsr-opacity-50 dsr-shadow-inner  dsr-text-color dsr-text-base group-focus-within:dsr-border-gray-500/50 group-[:not(:focus-within):hover]:dsr-border-gray-500/40 dark:dsr-border-neutral-500/70 dsr-border-neutral-500/20 dsr-rounded-l-lg dsr-border-l dsr-rounded-r-lg dsr-border-r"
+                                                                    aria-label="Password" aria-required="true"
+                                                                    aria-disabled="false"
+                                                                    id="current-password-input-yNyiXH7HQAtlj9KXAX3S4"
+                                                                    name="current-password"
+                                                                    placeholder="Enter your password" required=""
+                                                                    style="font-size:1.25rem" value="" /></div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="py-3"><button aria-di

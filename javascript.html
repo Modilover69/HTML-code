@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        i = 1
+        while (i < 10) {
+            sayhello();
+            i++;
+        }
+        function sayhello() {
+            alert("hello world");
+            // alert(document.cookie);
+        }
+    </script>
+    <script>
+        function sayhello() {
+            alert("hello world");
+            alert(document.cookie);
+        }
+    </script>
+</head>
+
+<body>
+    <input type="button" onclick="sayhello()" value="Say hello">
+    <input type="button" onclick="move()" value="move">
+    <script>
+        document.write("hello world");
+        function move() {
+            window.location.href = 'http://127.0.0.1:9999'
+        }
+    </script>
+
+    <img src="coffee1.jpeg" onclick="alert('Nahi degi soja')">
+
+    <script src="test.js"></script>
+    <input type="button" onclick="Rand()" value="Daba na">
+</body>
+
+</html>
